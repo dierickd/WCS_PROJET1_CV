@@ -1,16 +1,16 @@
-:root{
- 	--mainColor : brown;
-	--backgroundColor : white;
-	--fontColor : darkgrey;
-	--emphasisFontColor : yellow;
-	--lightColor : grey;
-	--darkColor:black;
+:root {
+    --backgroundColor1: #FAAA87;
+    --backgroundColor1: #17BBEE;
+    --fontColor: darkgray;
+    --emphasisFontColor: yellow;
+    --lightColor: grey;
+    --darkColor: black;
 }
 
-body{
-	display:flex;
+body {
+    display: flex;
 }
 
-main{
-	display:flex;
+main {
+    display: flex;
 }
