@@ -1,4 +1,4 @@
-root {
+:root {
     --backgroundColor1: #FAAA87;
     --backgroundColor1: #17BBEE;
     --fontColor: darkgray;
@@ -7,17 +7,38 @@ root {
     --darkColor: black;
 }
 
-body{
-	margin: 0;
-	padding: 0;
-	display:flex;
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
-a {text-decoration: none;}
 
-img {width: 100%;}
+a {
+    text-decoration: none;
+}
 
-*, *::after, *::before {box-sizing: border-box;}
+img {
+    width: 100%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
 
 main {
     display: flex;
+}
+
+section {
+    border: thin solid, black;
+}
+
+section:nth-child(even) {
+    background: var(--backgroundColor1);
+}
+
+section:nth-child(odd) {
+    background: var(--backgroundColor2);
 }
