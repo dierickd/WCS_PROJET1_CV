@@ -1,4 +1,4 @@
-:root {
+root {
     --backgroundColor1: #FAAA87;
     --backgroundColor1: #17BBEE;
     --fontColor: darkgray;
@@ -7,9 +7,16 @@
     --darkColor: black;
 }
 
-body {
-    display: flex;
+body{
+	margin: 0;
+	padding: 0;
+	display:flex;
 }
+a {text-decoration: none;}
+
+img {width: 100%;}
+
+*, *::after, *::before {box-sizing: border-box;}
 
 main {
     display: flex;
