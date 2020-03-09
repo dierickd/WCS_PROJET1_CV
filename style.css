@@ -1,16 +1,23 @@
-:root{
- 	--main-color : brown;
-	--background-color : white;
-	--font-color : darkgrey;
-	--emphasisFontColor : yellow;
-	--lightColor : grey;
-	--darkColor:black;
+root {
+    --backgroundColor1: #FAAA87;
+    --backgroundColor1: #17BBEE;
+    --fontColor: darkgray;
+    --emphasisFontColor: yellow;
+    --lightColor: grey;
+    --darkColor: black;
 }
 
 body{
+	margin: 0;
+	padding: 0;
 	display:flex;
 }
+a {text-decoration: none;}
 
-main{
-	display:flex;
+img {width: 100%;}
+
+*, *::after, *::before {box-sizing: border-box;}
+
+main {
+    display: flex;
 }
