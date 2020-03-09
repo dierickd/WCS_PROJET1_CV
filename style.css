@@ -1,0 +1,16 @@
+:root{
+ 	--main-color : brown;
+	--background-color : white;
+	--font-color : darkgrey;
+	--emphasisFontColor : yellow;
+	--lightColor : grey;
+	--darkColor:black;
+}
+
+body{
+	display:flex;
+}
+
+main{
+	display:flex;
+}
