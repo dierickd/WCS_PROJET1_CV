@@ -5,11 +5,17 @@
 	--emphasisFontColor : yellow;
 	--lightColor : grey;
 	--darkColor:black;
+	--font-size:14px;
 }
 
 body{
+	margin: 0;
+	padding: 0;
 	display:flex;
 }
+a {text-decoration: none;}
+img {width: 100%;}
+*, *::after, *::before {box-sizing: border-box;}
 
 main{
 	display:flex;
