@@ -1,7 +1,6 @@
 @import "navbar.css";
 @import "form.css";
 @import "network.css";
-
 @font-face {
     font-family: "Simpson";
     src: url("font/Homer_Simpson_Revised.ttf");
@@ -19,7 +18,6 @@
     --fontFamily: "Simpson";
     --padding: 25px;
 }
-
 body{
     margin: 0;
     padding: 0;
@@ -40,7 +38,6 @@ a {
 }
 img {width: 100%;}
 *, *::after, *::before {box-sizing: border-box;}
-
 main{
     max-width: 1200px;
     margin-left: auto;
@@ -48,11 +45,9 @@ main{
     padding-left: 25px;
     padding-right: 25px;
 }
-
 section {
     border: thin solid, black;
 }
-
 section:nth-child(even) {
     color: var(--fontColorLight);
 	background: var(--backgroundColor2);
@@ -60,7 +55,6 @@ section:nth-child(even) {
 section:nth-child(even) h2 {
     color: var(--fontColorLight);
 }
-
 section:nth-child(odd) {
     color: var(--fontColorDark);
 }
