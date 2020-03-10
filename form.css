@@ -1,21 +1,12 @@
 
 .contact-wrapper {
-    background: var(--bg-contact);
-    color: var(--darkColor);
     text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-.contact-title {
-    text-transform: uppercase;
-    color: var(--emphasisFontColor);
 }
 .contact {
     display: flex;
     justify-content: center;
 }
 .form-contact, .contact-info {
-    color: #fff;
     width: 550px;
     padding: 20px 30px;
 }
@@ -46,18 +37,19 @@
 .form-btn {
     margin-top: 40px;
 }
-.form-btn a {
-    border: 1px solid var(--bg-light);
+.form-btn .btn {
+    border: 1px solid var(--emphasisFontColor);
     padding: .85rem 1.25rem;
     transition: all .3s ease;
     border-radius: 3px;
     color: inherit;
+    background: transparent;
+    cursor: pointer;
 }
-.form-btn a:hover {
+.form-btn .btn:hover {
     border-color:var(--emphasisFontColor);
     background-color: var(--emphasisFontColor);
-    box-shadow: 0 0 8px var(--font-color);
-    color: var(--darkColor);
+    color: var(--fontColorDark);
 }
 
 @media screen and (max-width: 700px) {
