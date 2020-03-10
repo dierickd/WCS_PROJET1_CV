@@ -45,7 +45,6 @@
     width: 15px;
     margin-left: 5px;
 }
-
 @media screen and (max-width:950px) {
     .content {
         flex-wrap: wrap;
