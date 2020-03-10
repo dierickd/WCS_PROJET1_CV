@@ -2,7 +2,7 @@ nav {
     display: flex;
     height: 70px;
     background-color: #c14d86;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: nowrap;
 }
@@ -10,6 +10,27 @@ nav {
 nav a {
     font-family: "Simpson";
     font-size: 2em;
-    border: solid 3px black;
     padding: 4px;
+    color: var(--fontColorLight);
+    border-right: solid 3px white;
+    padding-right: 6%;
+
+}
+
+nav .contact {
+    border: none;
+}
+
+@media screen and (max-width: 700px) {
+    nav {
+        
+    }
+
+    nav a {
+        display: none;
+    }
+
+    nav .contact {
+        display: none;
+    }
 }
