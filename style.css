@@ -13,7 +13,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	color: var(--font-color);
+	color: var(--fontcolor);
 }
 a {text-decoration: none;}
 img {width: 100%;}
