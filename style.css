@@ -1,23 +1,21 @@
 @import "form.css";
 
-:root{
- 	--main-color : brown;
-	--background-color : white;
-	--font-color : darkgrey;
-	--emphasisFontColor : #FDD420;
-	--lightColor : grey;
-	--darkColor:black;
-	--bg-contact : #17BBEE;
-	--bg-light: #FAAA87;
-
-	--font-size:14px;
+:root {
+    --backgroundColor1: #FAAA87;
+    --backgroundColor2: #17BBEE;
+    --fontColor: darkgray;
+    --emphasisFontColor: #FDD420;
+    --lightColor: grey;
+    --darkColor: black;
+  	--font-size:14px;
 }
 
 body{
 	margin: 0;
 	padding: 0;
-	color: var(--font-color);
+	color: var(--fontcolor);
 }
+
 a {text-decoration: none;}
 img {width: 100%;}
 *, *::after, *::before {box-sizing: border-box;}
