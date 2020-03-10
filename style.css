@@ -1,8 +1,9 @@
 @import "navbar.css";
 @import "form.css";
+@import "network.css"; 
 
 @font-face {
-	font-family: "simpson";
+	font-family: "Simpson";
 	src: url("font/Homer_Simpson_Revised.ttf");
 }
 
@@ -12,9 +13,12 @@
     --fontColor: darkgray;
     --emphasisFontColor: #FDD420;
     --lightColor: grey;
-    --darkColor: black;
-	--fontSize: 14px;
-	--fontFamily: "simpson";
+	--darkColor: black;
+	--fontSize:18pt;
+    --h3Size:20pt;
+    --h2Size:24pt;
+    --mainTitleSize:36pt;
+	--fontFamily: "Simpson";
 }
 
 body{
@@ -23,7 +27,7 @@ body{
 	color: var(--fontColor);
 }
 h1, h2 {
-	font-family: "simpson";
+	font-family: "Simpson";
 }
 a {text-decoration: none;}
 img {width: 100%;}
@@ -36,3 +40,16 @@ main{
 	padding-left: 25px;
 	padding-right: 25px;
 }
+
+section {
+    border: thin solid, black;
+}
+
+section:nth-child(even) {
+    background: var(--backgroundColor1);
+}
+
+section:nth-child(odd) {
+    background: var(--backgroundColor2);
+}
+
