@@ -1,8 +1,8 @@
 root {
     --backgroundColor1: #FAAA87;
-    --backgroundColor1: #17BBEE;
+    --backgroundColor2: #17BBEE;
     --fontColor: darkgray;
-    --emphasisFontColor: yellow;
+    --emphasisFontColor: #FDD420;
     --lightColor: grey;
     --darkColor: black;
 }
