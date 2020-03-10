@@ -61,7 +61,42 @@
         </section>
 
         <!-- Contact -->
-        <section id="contact">
+        <section class="contact-wrapper" id="contact">
+            <div class="contact-title">
+                <h2>M'envoyer un donut's électronique</h2>
+            </div>
+            <div class="contact">
+                <div class="contact-info">
+                    <p class="item-info">Barney GUMBLE</p>
+                    <p class="item-info">92 rue de simscity - 69000 simsville</p>
+                    <p class="item-info">06.06.06.06.06</p>
+                    <p class="item-info">barney@simpson.com</p>
+                    <a href="#"><img src="https://icongr.am/devicon/linkedin-plain.svg" alt="Linkedin"></a>
+                    <a href="#"><img src="https://icongr.am/entypo/pinterest-with-circle.svg" alt="Pinteres"></a>
+                    <a href="#"><img src="https://icongr.am/entypo/instagram-with-circle.svg" alt="Instagram"></a>
+                </div>
+                <form action="send.php" method="POST" class="form-contact">
+                    <div class="form-group">
+                        <label for="name">Nom ou entreprise</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Sujet</label>
+                        <input type="text" id="subject" name="subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="7"></textarea>
+                    </div>
+                    <div class="form-btn">
+                        <a href="#" class="btn">Envoyer le donut's</a>
+                    </div>
+                </form>
+            </div>
         </section>
 
     </main>
