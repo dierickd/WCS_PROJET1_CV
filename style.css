@@ -1,15 +1,18 @@
+
 @import "network.css"; 
+@import "form.css";
 
 @font-face {
  font-family: "Simpson";
  src: url("/fonts/Homer_Simpson_Revised.ttf");
 }
 
+
 :root {
     --backgroundColor1: #FAAA87;
     --backgroundColor2: #17BBEE;
     --fontColor: darkgray;
-    --emphasisFontColor: yellow;
+    --emphasisFontColor: #FDD420;
     --lightColor: grey;
     --darkColor: black;
     --fontSize:18pt;
@@ -55,8 +58,13 @@ img {
     box-sizing: border-box;
 }
 
-main {
-    display: flex;
+
+main{
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 section {
