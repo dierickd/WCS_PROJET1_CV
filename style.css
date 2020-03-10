@@ -1,4 +1,5 @@
 @import "form.css";
+@import "skills.css";
 
 :root {
     --backgroundColor1: #FAAA87;
@@ -27,3 +28,4 @@ main{
 	padding-left: 25px;
 	padding-right: 25px;
 }
+
