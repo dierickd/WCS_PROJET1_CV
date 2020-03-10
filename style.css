@@ -1,16 +1,44 @@
+@import "network.css"; 
+
+@font-face {
+ font-family: "Simpson";
+ src: url("/fonts/Homer_Simpson_Revised.ttf");
+}
+
 :root {
     --backgroundColor1: #FAAA87;
-    --backgroundColor1: #17BBEE;
+    --backgroundColor2: #17BBEE;
     --fontColor: darkgray;
     --emphasisFontColor: yellow;
     --lightColor: grey;
     --darkColor: black;
+    --fontSize:18pt;
+    --h3Size:20pt;
+    --h2Size:24pt;
+    --mainTitleSize:36pt;
 }
 
 body {
     margin: 0;
     padding: 0;
     display: flex;
+    
+    font-family: roboto;
+    color:val(--fontColor);
+    font-size: val(--fontSize);
+
+}
+
+h2{
+    font-family: "Simpson"; 
+    color : val(--emphasisfontColor);
+    font-size: val(--h2Size);
+}
+
+h3{
+    font-family: "Simpson"; 
+    color : val(--emphasisfontColor);  
+    font-size: val(--h3Size);
 }
 
 a {
@@ -42,3 +70,4 @@ section:nth-child(even) {
 section:nth-child(odd) {
     background: var(--backgroundColor2);
 }
+
