@@ -1,4 +1,10 @@
+@import "navbar.css";
 @import "form.css";
+
+@font-face {
+	font-family: "simpson";
+	src: url("font/Homer_Simpson_Revised.ttf");
+}
 
 :root {
     --backgroundColor1: #FAAA87;
@@ -7,15 +13,18 @@
     --emphasisFontColor: #FDD420;
     --lightColor: grey;
     --darkColor: black;
-  	--font-size:14px;
+	--fontSize: 14px;
+	--fontFamily: "simpson";
 }
 
 body{
 	margin: 0;
 	padding: 0;
-	color: var(--fontcolor);
+	color: var(--fontColor);
 }
-
+h1, h2 {
+	font-family: "simpson";
+}
 a {text-decoration: none;}
 img {width: 100%;}
 *, *::after, *::before {box-sizing: border-box;}
