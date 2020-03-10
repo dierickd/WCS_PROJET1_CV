@@ -1,0 +1,52 @@
+* {
+    background-color: #17BBEE;
+    color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu_exp {
+    display: flex;
+    border: 2px solid black;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+#abilities .experience li {
+    display: flex;
+}
+
+#abilities {
+    display: flex;
+}
+
+.reference {
+    text-decoration: underline;
+}
+
+.experience {
+    border: 2px solid black;
+    margin-bottom: 20px;
+    width: 50%;
+    padding: 10px;
+}
+
+.menu_exp1 {
+    display: flex;
+    border: 2px solid black;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+
+
+
+#portfolio {
+    display: flex;
+}

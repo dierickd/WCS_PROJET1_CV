@@ -1,23 +1,47 @@
-root {
-    --backgroundColor1: #FAAA87;
-    --backgroundColor1: #17BBEE;
-    --fontColor: darkgray;
-    --emphasisFontColor: yellow;
-    --lightColor: grey;
-    --darkColor: black;
+@import "navbar.css";
+@import "form.css";
+@import "skills.css";
+
+:root {
+    --backgroundColor1: #e79e11;
+    --backgroundColor2: #17BBEE;
+    --fontColorLight: #f5f4f4;
+    --fontColorDark: #494949;
+    --emphasisFontColor: #FDD420;
+	--fontSize:18pt;
+    --h3Size:20pt;
+    --h2Size:24pt;
+    --mainTitleSize:36pt;
+	--fontFamily: "Simpson";
+	--padding: 25px;
 }
 
 body{
 	margin: 0;
 	padding: 0;
-	display:flex;
+	color: var(--fontColorLight);
 }
-a {text-decoration: none;}
-
+section {
+	padding: var(--padding);
+}
+h1, h2 {
+	font-family: "Simpson";
+    text-transform: uppercase;
+	color: var(--fontColorLight);
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
 img {width: 100%;}
-
 *, *::after, *::before {box-sizing: border-box;}
 
-main {
-    display: flex;
+main{
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 25px;
+	padding-right: 25px;
 }
+
