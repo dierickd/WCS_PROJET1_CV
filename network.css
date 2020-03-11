@@ -10,17 +10,6 @@
     padding: 8px;
     width: calc(100% / 3);
 }
-.person figure {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-    max-width: 300px;
-    padding-left: 25px;
-    padding-right: 25px;
-    height: 220px;
-}
 .person-body {
     text-align: center;
 }
