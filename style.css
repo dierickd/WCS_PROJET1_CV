@@ -1,7 +1,7 @@
 @import "navbar.css";
 @import "form.css";
 @import "network.css";
-@import "skills.css"
+@import "skills.css";
 @font-face {
     font-family: "Simpson";
     src: url("font/Homer_Simpson_Revised.ttf");
@@ -27,7 +27,7 @@ body{
 section {
     padding: var(--padding);
 }
-h1, h2 {
+h1, h2, .abilities-button {
     font-family: "Simpson";
     text-transform: uppercase;
     color: var(--fontColorDark);
