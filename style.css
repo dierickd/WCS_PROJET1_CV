@@ -6,7 +6,9 @@
 
 @font-face {
     font-family: "Simpson";
-    src: url("font/Homer_Simpson_Revised.ttf");
+	src: url("font/Homer_Simpson_Revised.ttf");
+	font-family: "simple_texte"
+	src: url("font/A_Sensible_Armadillo.ttf")
 }
 :root {
     --backgroundColor1: #E79E11;
@@ -18,7 +20,8 @@
     --h3Size:20pt;
     --h2Size:24pt;
     --mainTitleSize:36pt;
-    --fontFamily: "Simpson";
+	--fontFamily: "Simpson";
+	--fontFamily: "simple_texte"
     --padding: 25px;
 }
 body{

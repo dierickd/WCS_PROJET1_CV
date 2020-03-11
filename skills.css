@@ -4,6 +4,10 @@
     margin: 10px;
 }
 
+p {
+    font-family: "simple_texte";
+}
+
 #container {
     display: flex;
     flex-direction: column;
