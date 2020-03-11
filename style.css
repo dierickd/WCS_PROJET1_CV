@@ -27,12 +27,21 @@ body{
 section {
     padding: var(--padding);
 }
-h1, h2, .abilities-button {
+h1, h2 {
     font-family: "Simpson";
     text-transform: uppercase;
     color: var(--fontColorDark);
+	text-align: center;
+	font-size: 3rem;
+}
+
+h3 {
+	font-family: "Simpson";
+	text-transform: uppercase;
+    color: var(--fontColorDark);
     text-align: center;
 }
+
 a {
     text-decoration: none;
     color: inherit;
