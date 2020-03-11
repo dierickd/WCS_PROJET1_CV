@@ -1,0 +1,46 @@
+#whoami {
+    height: 100vh;
+    padding-top:10vw;
+}
+
+#whoami .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5vw;
+}
+
+#whoami h2{
+    padding-left:15vw;
+}
+
+#whoami .content img {
+    width: 20vw;
+    position: absolute;
+    top: 12vw;
+    left: 5vw;
+    z-index: -10;
+}
+
+#whoami .content p {
+    width: 40vw;
+}
+
+#whoami .dirty{
+    width:10vw;
+    position:absolute;
+    top:70vh;
+    left:80vw;
+    
+}
+
+@media only screen and (max-width: 700px) {
+    #whoami .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+

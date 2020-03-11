@@ -1,37 +1,45 @@
-.content {
-    display: flex;
-    justify-content: center;
+
+    
+figcaption h3 {
+    margin-top: 5px;
 }
 
-.person{
-    display:flex;
+#network .content {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#network article p{
+    margin:5px;
+}
+
+.person {
+    display: flex;
     align-items: center;
     flex-direction: column;
     margin: 15px;
     padding: 8px;
-    width: calc(100% / 3);
+    width:calc(100%/3);
 }
+
 .person figure {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    max-width: 300px;
     padding-left: 25px;
     padding-right: 25px;
-    height: 220px;
 }
-.person-body {
-    text-align: center;
-}
-.person .job {
-    text-decoration: underline;
-}
-.person .icon{
+
+.person .icon {
     border-radius: 50%;
-    max-width: 100px;
+    width: 27vw;
+    height: 27vw;
+    background-color: inherit;
 }
+
 .person .linkedin {
     display: flex;
     justify-content: center;
@@ -41,10 +49,15 @@
     border-radius: 3px;
     margin-left: 25px;
     margin-right: 25px;
+    color: black;
 }
-.person .external-link {
-    width: 15px;
-    margin-left: 5px;
+
+#whoami .dirty{
+    width:10vw;
+    position:absolute;
+    top:270vh;
+    left:80vw;
+    
 }
 
 @media screen and (max-width:950px) {
@@ -52,6 +65,7 @@
         flex-wrap: wrap;
     }
 }
+
 @media screen and (max-width:700px) {
     .content {
         flex-direction: column;
