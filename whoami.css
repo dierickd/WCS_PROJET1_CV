@@ -3,7 +3,22 @@
 }
 
 #whoami .content{
+
     display:flex;
     flex-direction: row;
     align-items: center;
+
+    margin:5vw;
+}
+
+#whoami{
+    height:95vh;
+}
+@media only screen and (max-width: 700px) {
+    #whoami .content{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
 }

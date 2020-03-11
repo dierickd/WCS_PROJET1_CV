@@ -13,3 +13,9 @@ nav a {
     border: solid 3px black;
     padding: 4px;
 }
+
+nav {
+    width: 100vw;
+    overflow: hidden;
+
+}

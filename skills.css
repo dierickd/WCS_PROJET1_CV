@@ -2,6 +2,7 @@
     text-align: center;
     font-weight: bold;
     margin: 10px;
+    h100
 }
 
 #container {
@@ -46,28 +47,6 @@ p.exp {
 
 }
 
-.abilities-button:before {
-    position: absolute;
-    display: inline-block;
-    content: " ";
-    background: url("https://icongr.am/fontawesome/angle-double-down.svg?color=fefefe");
-    background-repeat: no-repeat;
-    width: 50px;
-    height: 40px;
-    left: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-
-.abilities-button:focus+#container {
-    height: 800px;
-    transition-duration: 0.3s;
-}
-
-.chevron-down {
-    width: 40px;
-}
 
 @media only screen and (max-width:950px) {
     .box {
