@@ -17,5 +17,5 @@ nav a {
 nav {
     width: 100vw;
     overflow: hidden;
-
+    position:fixed;
 }

@@ -1,11 +1,17 @@
+
+    
 figcaption h3 {
     margin-top: 5px;
 }
 
-.content {
+#network .content {
     display: flex;
     justify-content: center;
-    width:98vw;
+    
+}
+
+#network article p{
+    margin:5px;
 }
 
 .person {
@@ -14,6 +20,7 @@ figcaption h3 {
     flex-direction: column;
     margin: 15px;
     padding: 8px;
+    width:calc(100%/3);
 }
 
 .person figure {
@@ -26,14 +33,11 @@ figcaption h3 {
     padding-right: 25px;
 }
 
-.person-body {
-    text-align: center;
-}
-
 .person .icon {
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 27vw;
+    height: 27vw;
+    background-color: inherit;
 }
 
 .person .linkedin {
@@ -48,9 +52,12 @@ figcaption h3 {
     color: black;
 }
 
-.person .external-link {
-    width: 15px;
-    margin-left: 5px;
+#whoami .dirty{
+    width:10vw;
+    position:absolute;
+    top:270vh;
+    left:80vw;
+    
 }
 
 @media screen and (max-width:950px) {
