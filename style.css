@@ -2,6 +2,8 @@
 @import "form.css";
 @import "network.css";
 @import "skills.css";
+@import "whoami.css";
+
 @font-face {
     font-family: "Simpson";
     src: url("font/Homer_Simpson_Revised.ttf");

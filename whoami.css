@@ -1,0 +1,9 @@
+#whoami img{
+        width : 30vw;
+}
+
+#whoami .content{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
