@@ -45,6 +45,10 @@ h3 {
     text-align: center;
 }
 
+p {
+	font-family: "Simple-texte";
+}
+
 a {
     text-decoration: none;
     color: inherit;
