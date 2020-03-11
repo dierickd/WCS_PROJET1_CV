@@ -39,13 +39,7 @@ a {
 }
 img {width: 100%;}
 *, *::after, *::before {box-sizing: border-box;}
-main{
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-}
+
 section {
     border: thin solid, black;
 }
