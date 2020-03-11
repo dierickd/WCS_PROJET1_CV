@@ -4,7 +4,9 @@
 @import "skills.css";
 @font-face {
     font-family: "Simpson";
-    src: url("font/Homer_Simpson_Revised.ttf");
+	src: url("font/Homer_Simpson_Revised.ttf");
+	font-family: "Simple-texte";
+	src: url("");
 }
 :root {
     --backgroundColor1: #E79E11;
@@ -17,7 +19,8 @@
     --h2Size:24pt;
     --mainTitleSize:36pt;
     --fontFamily: "Simpson";
-    --padding: 25px;
+	--padding: 25px;
+	--fontFamily: "Simple-texte";
 }
 body{
     margin: 0;
