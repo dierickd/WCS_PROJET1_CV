@@ -1,21 +1,63 @@
-nav {
-    display: flex;
-    height: 70px;
-    background-color: #c14d86;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: nowrap;
-}
-
-nav a {
+.navbar {
+    height: 100px;
+    background-color: #f06bbd;
+    z-index: 99;
+    }
+    
+.navbar a {
     font-family: "Simpson";
     font-size: 2em;
-    border: solid 3px black;
-    padding: 4px;
-}
+    cursor: pointer;
+    color: white;
+    padding: 0 5%;
+    text-shadow: #ecb243 1px 0 10px;
+    }
+    
+.menu_burger {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    }
+    
+.button_menu {
+    display: none;
+    }
+    
+/*Mobile Version */
+@media screen and (max-width: 700px) {
 
-nav {
+    .navbar {
+        margin-bottom: 10%;
+    }
+
+    .menu_burger {
+        display: none;
+    }
+    
+    .button_menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    
+    .button_menu img{
+    width: 80px;
+    }
+    
+    .menu_burger:target {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
     width: 100vw;
-    overflow: hidden;
-    position:fixed;
+    height:100vh;
+    font-size: 3em;
+    top:0;
+    left:0;
+    z-index: 100;
+    background-color: #f06bbc;
+    }
+    
 }
