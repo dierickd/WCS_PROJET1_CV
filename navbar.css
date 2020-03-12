@@ -2,6 +2,8 @@
     height: 100px;
     background-color: #f06bbd;
     z-index: 99;
+    position: fixed;
+    width: 100%;
     }
     
 .navbar a {
@@ -30,6 +32,7 @@
 
     .navbar {
         margin-bottom: 10%;
+
     }
 
     .menu_burger {

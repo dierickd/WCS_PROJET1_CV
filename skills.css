@@ -1,5 +1,3 @@
-
-
 #container {
     display: flex;
     flex-direction: column;
@@ -27,19 +25,27 @@ div.exp {
     justify-content: center;
 }
 
+/*    filter: blur(2px);
+    opacity: .5;
+}*/
+
 .exp {
     display: flex;
     width: 50%;
     justify-content: center;
-    background-color: var(--shadowColor);
+    background-color: #EF8C6B;
+    transform: rotateY(4deg);
+    box-shadow: 0 10px 20px black;
 }
 
 .comp {
+    transform: rotate(12deg);
     display: flex;
     flex: 1;
     justify-content: center;
-    background-color: var(--fontColorDark);
+    background-color: #435274;
     width: 50%;
+    box-shadow: 0 10px 20px black;
 }
 
 .achievment {
@@ -59,7 +65,6 @@ div.exp {
 
 span {
     font-size: 14pt;
-    color: white;
 }
 
 @media only screen and (max-width:950px) {
@@ -74,14 +79,14 @@ span {
     }
     .exp {
         margin-bottom: -30px;
-        padding: 30px; 
+        padding: 30px;
         justify-content: center;
-        white-space: pre-wrap;       
+        white-space: pre-wrap;
+        width: 100%;
     }
-
     .comp {
         padding: 20px;
         justify-content: center;
+        width: 100%;
     }
-    
 }

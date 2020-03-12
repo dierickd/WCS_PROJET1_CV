@@ -50,6 +50,7 @@ figcaption h3 {
     margin-left: 25px;
     margin-right: 25px;
     color: black;
+    min-width:200px;
 }
 
 #whoami .dirty{
