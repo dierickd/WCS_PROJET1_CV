@@ -6,7 +6,9 @@
 
 @font-face {
     font-family: "Simpson";
-    src: url("font/Homer_Simpson_Revised.ttf");
+	src: url("font/Homer_Simpson_Revised.ttf");
+	font-family: "Barney";
+	src: url("font/TYPO_COMICS_Light_demo.otf")
 }
 
 :root {
@@ -21,7 +23,8 @@
     --fontSize: calc(0.12* var(--h1Size));
     --mainTitleSize: 36pt;
     --fontFamily: "Simpson";
-    --padding: 25px;
+	--padding: 25px;
+	--fontFamily: "Barney";
 }
 
 body {
