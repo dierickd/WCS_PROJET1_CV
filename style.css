@@ -6,7 +6,12 @@
 
 @font-face {
     font-family: "Simpson";
-    src: url("font/Homer_Simpson_Revised.ttf");
+	src: url("font/Homer_Simpson_Revised.ttf");
+}
+
+@font-face {
+	font-family: "Barney";
+	src: url("font/TYPO_COMICS_Light_demo.otf")
 }
 
 :root {
@@ -21,7 +26,8 @@
     --fontSize: calc(0.12* var(--h1Size));
     --mainTitleSize: 36pt;
     --fontFamily: "Simpson";
-    --padding: 25px;
+	--padding: 25px;
+	--fontFamily: "Barney";
 }
 
 body {
@@ -55,6 +61,15 @@ h2 {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+
+
+p {
+    font-family: "Barney";
+    font-size: 28px;
+    color: white;
+
 }
 
 img {

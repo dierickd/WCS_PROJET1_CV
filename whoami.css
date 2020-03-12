@@ -11,7 +11,7 @@
 }
 
 #whoami h2{
-    padding-left:15vw;
+    _padding-left:15vw;
 }
 
 #whoami .content img {
@@ -19,11 +19,12 @@
     position: absolute;
     top: 12vw;
     left: 5vw;
-    z-index: -10;
+    z-index: 10;
 }
 
 #whoami .content p {
     width: 40vw;
+    margin-left:30vw;
 }
 
 #whoami .dirty{
