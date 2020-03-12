@@ -16,7 +16,7 @@
 #whoami .content img {
     width: 20vw;
     position: absolute;
-    top: 18vw;
+    top: 14vw;
     left: 5vw;
     z-index: 100;
 }
@@ -30,7 +30,7 @@
 #whoami .dirty {
     width: 10vw;
     position: absolute;
-    top: 40vw;
+    top: 36vw;
     left: 80vw;
 }
 
