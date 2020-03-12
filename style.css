@@ -7,12 +7,15 @@
 @font-face {
     font-family: "Simpson";
 	src: url("font/Homer_Simpson_Revised.ttf");
+}
+
+@font-face {
 	font-family: "Barney";
 	src: url("font/TYPO_COMICS_Light_demo.otf")
 }
 
 :root {
-    --backgroundColor1: #E79E11;
+    --backgroundColor1: white;
     --backgroundColor2: #17BBEE;
     --fontColorLight: #F5F4F4;
     --fontColorDark: #494949;
@@ -25,6 +28,7 @@
     --fontFamily: "Simpson";
 	--padding: 25px;
 	--fontFamily: "Barney";
+    --shadowColor: #E79E11;
 }
 
 body {
@@ -41,8 +45,11 @@ section {
 h1 {
     font-family: "Simpson";
     font-size: var(--h1Size);
-    text-shadow: 4px 4px 8px var(--backgroundColor1);
+    color: var(--fontColorDark);
+    text-align: center;
+    text-shadow: 4px 4px 8px var(--shadowColor);
 
+    margin:0px;
     z-index:10;
 }
 
@@ -51,13 +58,22 @@ h2 {
     text-transform: uppercase;
     color: var(--fontColorDark);
     text-align: center;
-    text-shadow: 4px 4px 8px var(--backgroundColor1);
+    text-shadow: 4px 4px 8px var(--shadowColor);
     z-index:10;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+}
+
+
+
+p {
+    font-family: "Barney";
+    font-size: 28px;
+    color: var(--darkColor);
+
 }
 
 img {
@@ -70,9 +86,6 @@ img {
     box-sizing: border-box;
 }
 
-section {
-    border: thin solid, black;
-}
 
 section:nth-child(even) {
     color: var(--fontColorLight);
@@ -85,6 +98,7 @@ section:nth-child(even) h2 {
 
 section:nth-child(odd) {
     color: var(--fontColorDark);
+    background: var(--backgroundColor1);
 }
 
 h2 {

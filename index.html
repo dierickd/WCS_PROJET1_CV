@@ -11,19 +11,23 @@
 <body>
     <header>
         <nav class="navbar">
-            <a class="experience" href="https://google.fr">Experience</a>
-            <a class="abilities" href="#">Abilities</a>
-            <a class="portfolio" href="#">Portfolio</a>
-            <a class="network" href="#">Network</a>
-            <a class="contact" href="#">Contact</a>
+            <div class="menu_burger" id="menu_burger">
+                <a href="#whoami">Profil</a>
+                <a href="#abilities">Compétences</a>
+                <a href="#portfolio">Récompenses</a>
+                <a href="#network">Réseau</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <a class="button_menu" href="#menu_burger"><img alt="menu" src="images/menu.png"/></a>
         </nav>
+        
     </header>
     <main>
 
         <!-- who am I -->
         <section id="whoami">
-            <h1 class="title">Bernard Gumble</h1>
-            <h2 class="title">CV d'un Barman Expérimenté</h2>
+            <h1>Bernard Gumble</h1>
+            <h2>CV d'un Barman Expérimenté</h2>
             <div class="content">
                 <img src="https://vignette.wikia.nocookie.net/p__/images/b/b4/Barnild_Gumble.png/revision/latest/scale-to-width-down/286?cb=20160402113506&path-prefix=protagonist" class="external-link" alt="Barney's Face">
                 <p>
@@ -38,7 +42,8 @@
         </section>
 
         <!-- abilities -->
-        <section>
+        <section class="abilities">
+
             <h2>Compétences</h2>
             <div id="container">
                 <div class="title">

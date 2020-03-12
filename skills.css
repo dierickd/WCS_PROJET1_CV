@@ -1,21 +1,4 @@
-body{
-    background-color: #17BBEE;
 
-}
-
-h2 {
-    font-family: "Simpson";
-    text-align: center;
-    font-weight: bold;
-    margin: 10px;
-    font-size: 6rem;
-}
-
-p {
-    font-family: "Barney";
-    font-size: 28px;
-    color: white;
-}
 
 #container {
     display: flex;
@@ -48,7 +31,7 @@ div.exp {
     display: flex;
     width: 50%;
     justify-content: center;
-    background-color: var(--backgroundColor1);
+    background-color: var(--shadowColor);
 }
 
 .comp {
