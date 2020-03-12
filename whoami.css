@@ -5,11 +5,7 @@
 }
 
 #whoami {
-
-
     height: 100vh;
-    position:relative;
-    _margin-top:15vh;
 }
 
 #whoami .content {
@@ -20,6 +16,15 @@
     position: relative;
 }
 
+
+
+#whoami .content p {
+    width: 40vw;
+    margin-left: 30vw;
+    min-height: 180px;
+    z-index:10;
+}
+
 #whoami .content img {
     width: 20vw;
     position: absolute;
@@ -28,32 +33,26 @@
     z-index: 100;
 }
 
-#whoami .content p {
-    width: 40vw;
-    margin-left: 30vw;
-    min-height: 180px;
-}
-
-#whoami .dirty {
+#whoami .content .dirty {
     width: 10vw;
     position: absolute;
-    top: 35vw;
-    left: 80vw;
+    top: 4vw;
+    left: 75vw;
     z-index: 0;
 }
 
 @media only screen and (max-width: 1500px) {
 
     #whoami {
-        height:inherit;
+        height: inherit;
+        height:100vh;
     }
-    
-    #whoami .dirty {
 
-    top: 40vw;
-
+    #whoami h1{
+        margin:50px;
+    }
 }
-    
+
 @media only screen and (max-width: 700px) {
     #whoami .content {
         display: flex;
@@ -78,12 +77,12 @@
         z-index: 100;
     }
 
-    #whoami .dirty {
+    _#whoami .content .dirty {
         width: 10vw;
         position: absolute;
-        top: 50vw;
+        top: 60vw;
         left: 80vw;
-        z-index: 0;
+        z-index: 100;
     }
 }
 

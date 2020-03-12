@@ -4,12 +4,16 @@ figcaption h3 {
 
 #network .content {
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
 
+    margin: 5%;
+    width: 90%;
 }
 
-#network article p {
-    margin: 5px;
+#network figure {
+    margin: 0;
+    padding: 0;
+    width: 100%
 }
 
 
@@ -18,8 +22,12 @@ figcaption h3 {
     align-items: center;
     flex-direction: column;
     margin: 15px;
-    padding: 8px;
     width: calc(100%/3);
+}
+
+.person p {
+
+    width: 100%;
 }
 
 .person figure {
@@ -44,7 +52,7 @@ figcaption h3 {
 }
 
 .person .linkedin {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     background: var(--emphasisFontColor);
@@ -63,7 +71,7 @@ figcaption h3 {
 
 }
 
-@media screen and (max-width:950px) {
+@media screen and (max-width:1500px) {
     .content {
         flex-wrap: wrap;
     }
@@ -74,12 +82,19 @@ figcaption h3 {
         flex-direction: column;
     }
 
-    .person {
-        width: auto;
+
+
+    .person .job,
+    .person h3 {
+        white-space: inherit;
     }
 
-    .person .job, .person h3 {
-        white-space: inherit;
+    .person {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 5%;
+        width: 90%;
     }
 
 }
