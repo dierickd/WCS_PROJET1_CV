@@ -26,7 +26,7 @@
 	--emphasisFontColor: #FDD420;
 	--h1Size: 11vw;
 	--h2Size: calc(0.66* var(--h1Size));
-	--h3Size: calc(0.5* var(--h1Size));
+	--h3Size: calc(0.3* var(--h1Size));
 	--fontSize: calc(0.15* var(--h1Size));
 	--mainTitleSize: 36pt;
 	--fontFamily: "Simpson";
@@ -64,6 +64,13 @@ h2 {
 	text-align: center;
 	text-shadow: 4px 4px 8px var(--shadowColor);
 	z-index: 10;
+}
+
+h3 {
+	font-family: "Simpson";
+    font-size: var(--h3Size);
+    margin-bottom:5px;
+    white-space: nowrap;
 }
 
 a {

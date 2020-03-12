@@ -14,6 +14,7 @@ figcaption h3 {
     margin:5px;
 }
 
+
 .person {
     display: flex;
     align-items: center;
@@ -40,6 +41,10 @@ figcaption h3 {
     background-color: inherit;
 }
 
+.person .job{
+    white-space: nowrap;
+}
+
 .person .linkedin {
     display: flex;
     justify-content: center;
@@ -47,8 +52,7 @@ figcaption h3 {
     background: var(--emphasisFontColor);
     padding: 5px 8px;
     border-radius: 3px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin: 25px;
     color: black;
     min-width:200px;
 }
