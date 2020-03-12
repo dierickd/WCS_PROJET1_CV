@@ -7,7 +7,6 @@ h2 {
 }
 
 p {
-    font-family: "Barney";
     font-size: 28px;
     color: black;
 }
@@ -34,24 +33,94 @@ div.exp {
     justify-content: center;
 }
 
+.box, [class="^box-"] p {
+    position: relative;
+    background-image: url("images/post_it-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    width: 450px;
+    height: 450px;
+    padding: 40px;
+    transform: rotate(-12deg);
+
+}
+
 .box {
-    display: flex;
-    justify-content: center;
+    position: relative;
+    top: 0px;
+    background-image: url("images/post_it-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    width: 450px;
+    height: 450px;
+    padding: 15px;
+    transform: rotate(12deg);
 }
 
-.exp {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    background-color: var(--backgroundColor1);
+.box-1 {
+    position: relative;
+    top: -30px;
+    background-image: url("images/post_it-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    width: 450px;
+    height: 450px;
+    padding: 15px;
+    transform: rotate(-12deg);
 }
 
-.comp {
+.box-2 {
+    position: relative;
+    top: 90px;
+    background-image: url("images/post_it-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    width: 450px;
+    height: 450px;
+    padding: 15px;
+    transform: rotate(12deg);
+}
+
+.box-3 {
+    position: relative;
+    top: -30px;
+    background-image: url("images/post_it-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    width: 450px;
+    height: 450px;
+    padding: 15px;
+    transform: rotate(-12deg);
+
+}
+
+.box-4 {
+    position: relative;
+    top: -30px;
+    background-image: url("images/post_it-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    width: 450px;
+    height: 450px;
+    padding: 15px;
+    transform: rotate(12deg);
+}
+
+.wrapper-box {
     display: flex;
-    flex: 1;
-    justify-content: center;
-    background-color: var(--fontColorDark);
-    width: 50%;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.box img {
+    top: 0;
+    left: 0;
 }
 
 .achievment {
@@ -81,16 +150,12 @@ span {
         width: 100%;
         align-items: center;
     }
-    .title {
-        display: none;
-    }
     .exp {
         margin-bottom: -30px;
-        padding: 30px; 
+        padding: 30px;
         justify-content: center;
-        white-space: pre-wrap;       
+        white-space: pre-wrap;
     }
-
     .comp {
         padding: 20px;
         justify-content: center;
