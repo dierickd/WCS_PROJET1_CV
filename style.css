@@ -76,7 +76,7 @@ section {
 
 section:nth-child(even) {
     color: var(--fontColorLight);
-    background: var(--backgroundColor2);
+	background: var(--backgroundColor2);
 }
 
 section:nth-child(even) h2 {
