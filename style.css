@@ -54,7 +54,9 @@ h1 {
 	text-align: center;
 	text-shadow: 4px 4px 8px var(--shadowColor);
 	margin: 0px;
+    margin-top:5vh;
 	z-index: 10;
+
 }
 
 h2 {
