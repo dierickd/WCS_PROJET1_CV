@@ -11,12 +11,16 @@
 <body>
     <header>
         <nav class="navbar">
-            <a class="experience" href="https://google.fr">Experience</a>
-            <a class="abilities" href="#">Abilities</a>
-            <a class="portfolio" href="#">Portfolio</a>
-            <a class="network" href="#">Network</a>
-            <a class="contact" href="#">Contact</a>
+            <div class="menu_burger" id="menu_burger">
+                <a href="#whoami">Profil</a>
+                <a href="#abilities">Compétences</a>
+                <a href="#portfolio">Récompenses</a>
+                <a href="#network">Réseau</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <a class="button_menu" href="#menu_burger"><img alt="menu" src="images/menu.png" /></a>
         </nav>
+
     </header>
     <main>
 
@@ -26,46 +30,45 @@
             <h2>CV d'un Barman Expérimenté</h2>
             <div class="content">
                 <img src="https://vignette.wikia.nocookie.net/p__/images/b/b4/Barnild_Gumble.png/revision/latest/scale-to-width-down/286?cb=20160402113506&path-prefix=protagonist" class="external-link" alt="Barney's Face">
+                <img src="images/tache.jpeg" class="dirty" alt="tache">
                 <p>
-                    Hey Guy's. Je suis Barney, le barman qu'il vous faut.
+                    Hey guys. Je suis Barney, le barman qu'il vous faut.
                     Vous verrez ici un aperçu de quelques une de mes compétences. C'est un peu long donc n'hésitez pas à
-                    ouvrir un bière pendant votre lecture.
+                    ouvrir une bière pendant votre lecture.
                 </p>
             </div>
 
-            <img src="images/tache.jpeg" class="dirty" alt="tache">
+
 
         </section>
 
         <!-- abilities -->
         <section>
-
-            <h2>Compétences</h2>
+            <h2>Expériences et Compétences</h2>
             <div id="container">
                 <div class="title">
-                    <h3 class="title-1">Expériences</h3>
-                    <h3 class="title-2">Compétences</h3>
-                </div>
-                <div class="box">
-                    <p class="exp">Harvard (enfin presque)</p>
-                    <p class="comp">Fort potentiel intellectuel</p>
-                </div>
-                <div class="box">
-                    <p class="exp">Les Bemols (groupe de musique)</p>
-                    <p class="comp">Artiste</p>
-                </div>
-                <div class="box">
-                    <p class="exp">Realisateur du Documentaitre : "Vingt Mille lieux sous les bieres"</p>
-                    <p class="comp">Capacite a entreprendre</p>
-                </div>
-                <div class="box">
-                    <p class="exp">Creation de l'entreprise : Le Roi Chasseneige</p>
-                    <p class="comp">Capacite d'aptation</p>
-                </div>
-                <div class="box">
+                <div class="wrapper">
 
-                    <p class="exp">Engagement dans le Corps des Marines</p>
-                    <p class="comp">Force Physique et dévouement total à une cause</p>
+                    <div class="box">
+                        <p class="exp">Harvard (enfin presque)</p>
+                        <p class="comp">Fort potentiel intellectuel</p>
+                    </div>
+                    <div class="box-1">
+                        <p class="exp">Les Bemols (groupe de musique)</p>
+                        <p class="comp">Artiste</p>
+                    </div>
+                    <div class="box-2">
+                        <p class="exp">Realisateur du Documentaitre : "Vingt Mille lieux sous les bieres"</p>
+                        <p class="comp">Capacite a entreprendre</p>
+                    </div>
+                    <div class="box-3">
+                        <p class="exp">Creation de l'entreprise : Le Roi Chasseneige</p>
+                        <p class="comp">Capacite d'aptation</p>
+                    </div>
+                    <div class="box-4">
+                        <p class="exp">Engagement dans le Corps des Marines</p>
+                        <p class="comp">Force Physique</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -76,7 +79,6 @@
                 <h2>Récompenses</h2>
 
                 <article class="">
-
                     <p class="succes">"18e place de la liste des 21 meilleurs alcooliques fictifs de tous les temps"
                     </p>
                     <span><em>source : Filcritic.com</em></span>
@@ -87,18 +89,18 @@
                     <span><em>source : IGN Entertainment Inc</em></span>
                 </article>
                 <article class="">
-                    <p class="succes">Dette de 14 milliards de dollars aupreès de Moe, calculé par la NASA</p>
-                    <span><em>source : Moe</em></span>
+                    <p class="succes">Dette de 14 milliards de dollars auprès de Moe, calculé par la NASA</p>
+                    <span><em>source : NASA</em></span>
                 </article>
                 <article class="succes">
                     <p class="succes">"Un nommination aux PRISM Awards de 2001"</p>
                     <span><em>source : Wikipédia</em></span>
                 </article>
                 <article class="succes">
-                    <p class="succes">"Le plus incroyablement amusant des ivrognes de la ville de la culture populaire"</p>
+                    <p class="succes">"Le plus incroyablement amusant des ivrognes de la ville de la culture populaire"
+                    </p>
                     <span><em>source : Filcritic.com</em></span>
                 </article>
-
             </div>
         </section>
 
@@ -108,21 +110,6 @@
             <div class="content">
                 <article class="person">
                     <figure>
-                        <img src="images/president.jpg" class="icon" title="Person1" alt="Person1's face">
-                        <figcaption>
-                            <h3>Tortuga Manana</h3>
-                            <p class="job"><em>Président de l'academie de la bière</em></p>
-                            <a class="linkedin" href="#" target="_blank">Linkedin</a>
-                        </figcaption>
-                    </figure>
-                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-
-                </article>
-                <article class="person">
-                    <figure>
                         <img src="images/waiter.jpg" class="icon" title="Person1" alt="Person1's face">
                         <figcaption>
                             <h3>Mouette Pouette</h3>
@@ -130,12 +117,23 @@
                             <a class="linkedin" href="#" target="_blank">Linkedin</a>
                         </figcaption>
                     </figure>
-                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                    <p class="text">Barney ? Le type qui pue la picole à trois bornes ? Évidemment que c’est un bon gars ! C’est même not’ meilleur client. On a dû faire importer des tonneaux de bières directement depuis Munich tellement il tapait dans nos réserves. Un fin gourmet, j’vous l’dis!</p>
 
                 </article>
+
+                <article class="person">
+                    <figure>
+                        <img src="images/president.jpg" class="icon" title="Person1" alt="Person1's face">
+                        <figcaption>
+                            <h3>Tortuga Manana</h3>
+                            <p class="job"><em>Président de l'academie de la bière</em></p>
+                            <a class="linkedin" href="#" target="_blank">Linkedin</a>
+                        </figcaption>
+                    </figure>
+                    <p class="text">Que votre commerce soit spécialisé en bière ou non, Barney saura vous proposer son expertise en matière d’alcool ! Personne ne pourrait rivaliser contre le Prince du Houblon, le Seigneur de la Picole, ou encore la Barrique à deux pattes !</p>
+
+                </article>
+
                 <article class="person">
                     <figure>
                         <img src="images/singer.png" class="icon" title="Person1" alt="Person1's face">
@@ -145,10 +143,8 @@
                             <a class="linkedin" href="#" target="_blank">Linkedin</a>
                         </figcaption>
                     </figure>
-                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                    <p class="text">J’ai pris une choppe un jour avec un certain Barney oui. Il avait l’air plutôt mal en point. Même complètement perdu. Et puis, je lui ai payé une bière. Et là, son visage s’est illuminé. Comme si il avait vu le Saint Esprit ! Il s’est relevé, touché par la Grâce des Cieux, comme emporté par une force occulte que seuls les Incas pouvaient en déceler le véritable secret. Il a bu sa bière, m’a souri … et m’a roté au visage. Je ne l’ai plus jamais revu depuis …
+                        Mais une chose est certaine : Barney est raide dingue de la binouze.</p>
 
                 </article>
             </div>
@@ -161,7 +157,6 @@
             </div>
             <div class="contact">
                 <div class="contact-info">
-
                     <p class="item-info">Bernard Gumble</p>
                     <p class="item-info">69 rue de la soif - Springfield</p>
                     <p class="item-info">06.06.06.06.06</p>
@@ -169,7 +164,6 @@
                     <a href="#"><img src="https://icongr.am/devicon/linkedin-plain.svg?color=fdd420" alt="Linkedin"></a>
                     <a href="#"><img src="https://icongr.am/entypo/pinterest-with-circle.svg?color=fdd420" alt="Pinteres"></a>
                     <a href="#"><img src="https://icongr.am/entypo/instagram-with-circle.svg?color=fdd420" alt="Instagram"></a>
-
                 </div>
                 <form action="#" method="POST" class="form-contact">
                     <div class="form-group">

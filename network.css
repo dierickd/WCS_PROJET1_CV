@@ -1,26 +1,33 @@
-
-    
 figcaption h3 {
     margin-top: 5px;
 }
 
 #network .content {
     display: flex;
-    justify-content: center;
-    
+    justify-content:space-around;
+
+    margin: 5%;
+    width: 90%;
 }
 
-#network article p{
-    margin:5px;
+#network figure {
+    margin: 0;
+    padding: 0;
+    width: 100%
 }
+
 
 .person {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin: 15px;
-    padding: 8px;
-    width:calc(100%/3);
+    width: calc(100%/3);
+}
+
+.person p {
+
+    width: 100%;
 }
 
 .person figure {
@@ -35,32 +42,36 @@ figcaption h3 {
 
 .person .icon {
     border-radius: 50%;
-    width: 27vw;
-    height: 27vw;
+    width: 20vw;
+    height: 20vw;
     background-color: inherit;
 }
 
+.person .job {
+    white-space: nowrap;
+}
+
 .person .linkedin {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     background: var(--emphasisFontColor);
     padding: 5px 8px;
     border-radius: 3px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin: 25px;
     color: black;
+    min-width: 200px;
 }
 
-#whoami .dirty{
-    width:10vw;
-    position:absolute;
-    top:270vh;
-    left:80vw;
-    
+#network .dirty {
+    width: 10vw;
+    position: absolute;
+    top: 270vh;
+    left: 80vw;
+
 }
 
-@media screen and (max-width:950px) {
+@media screen and (max-width:1500px) {
     .content {
         flex-wrap: wrap;
     }
@@ -70,7 +81,20 @@ figcaption h3 {
     .content {
         flex-direction: column;
     }
-    .person {
-        width: auto;
+
+
+
+    .person .job,
+    .person h3 {
+        white-space: inherit;
     }
+
+    .person {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 5%;
+        width: 90%;
+    }
+
 }
