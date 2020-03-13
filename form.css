@@ -25,7 +25,7 @@
     border: none;
     border-bottom: 1px solid var(--emphasisFontColor);
     padding: 8px 8px 8px 0;
-    color: var(--fontColorDark;
+    color: black;
 }
 .contact-info {
     text-align: center;
