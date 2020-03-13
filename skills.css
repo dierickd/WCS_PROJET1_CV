@@ -112,8 +112,7 @@ div.exp {
     transform: rotate(12deg);
 }
 
-.wrapper-box {
-    display: flex;
+.wrapper {
     flex-wrap: wrap;
     padding: 10px;
 }
