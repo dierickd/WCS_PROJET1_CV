@@ -11,6 +11,13 @@ div.exp {
     padding: 20px;
 }
 
+.comp, .exp {
+    color: var(--fontColorDark);
+    font-size: .8em;
+    font-size: 20pt;
+    margin: 20px;
+}
+
 .title {
     display: flex;
     justify-content: space-around;
@@ -20,32 +27,94 @@ div.exp {
     justify-content: center;
 }
 
+.box, [class="^box-"] p {
+    position: relative;
+    background-image: url("images/post_it-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    width: 450px;
+    height: 450px;
+    padding: 40px;
+    transform: rotate(-12deg);
+}
+
 .box {
-    display: flex;
-    justify-content: center;
-}
-
-/*    filter: blur(2px);
-    opacity: .5;
-}*/
-
-.exp {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    background-color: #EF8C6B;
-    transform: rotateY(4deg);
-    box-shadow: 0 10px 20px black;
-}
-
-.comp {
+    position: relative;
+    top: 0px;
+    background-image: url("images/post_it-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    width: 450px;
+    height: 450px;
+    padding: 15px;
     transform: rotate(12deg);
+}
+
+.box-1 {
+    position: relative;
+    top: -30px;
+    background-image: url("images/post_it-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    width: 450px;
+    height: 450px;
+    padding: 15px;
+    transform: rotate(-12deg);
+
+}
+
+.box-2 {
+    position: relative;
+    top: 90px;
+    background-image: url("images/post_it-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    width: 450px;
+    height: 450px;
+    padding: 15px;
+    transform: rotate(12deg);
+}
+
+.box-3 {
+    position: relative;
+    top: -30px;
+    background-image: url("images/post_it-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    width: 450px;
+    height: 450px;
+    padding: 15px;
+    transform: rotate(-12deg);
+}
+
+.box-4 {
+    position: relative;
+    top: -30px;
+    background-image: url("images/post_it-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    width: 450px;
+    height: 450px;
+    padding: 15px;
+    transform: rotate(12deg);
+}
+
+.wrapper {
     display: flex;
-    flex: 1;
     justify-content: center;
-    background-color: #435274;
-    width: 50%;
-    box-shadow: 0 10px 20px black;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.box img {
+    top: 0;
+    left: 0;
 }
 
 .achievment {
@@ -74,9 +143,11 @@ span {
         width: 100%;
         align-items: center;
     }
-    .title {
-        display: none;
+
+    .wrapper {
+        width: 60%;
     }
+
     .exp {
         margin-bottom: -30px;
         padding: 30px;
