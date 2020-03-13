@@ -12,6 +12,7 @@ div.exp {
 }
 
 .comp, .exp {
+    font-family: 'Homemade Apple';
     color: var(--fontColorDark);
     font-size: .8em;
     font-size: 20pt;
@@ -137,27 +138,25 @@ span {
 }
 
 @media only screen and (max-width:950px) {
-    .box {
+    .box-content {
         display: flex;
         flex-direction: column;
         width: 100%;
         align-items: center;
+        justify-content: center;
     }
-
     .wrapper {
-        width: 60%;
+        width: 100%;
     }
-
+    
+    .exp, .comp {
+        justify-content: center;
+        width: 100%;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
     .exp {
         margin-bottom: -30px;
-        padding: 30px;
-        justify-content: center;
         white-space: pre-wrap;
-        width: 100%;
-    }
-    .comp {
-        padding: 20px;
-        justify-content: center;
-        width: 100%;
     }
 }

@@ -4,7 +4,7 @@
 }
 .contact {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 .form-contact, .contact-info {
     width: 550px;
@@ -26,6 +26,8 @@
     border-bottom: 1px solid var(--emphasisFontColor);
     padding: 8px 8px 8px 0;
     color: black;
+    font-size: var(--h3Size);
+    font-family: var(--fontFamily);
 }
 .contact-info {
     text-align: center;
@@ -45,6 +47,8 @@
     color: inherit;
     background: transparent;
     cursor: pointer;
+    font-size: calc(var(--h3Size) / 2);
+    font-family: var(--fontFamily);
 }
 .form-btn .btn:hover {
     border-color:var(--emphasisFontColor);

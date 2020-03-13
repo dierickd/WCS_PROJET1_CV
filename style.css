@@ -15,10 +15,6 @@
     src: url("font/TYPO_COMICS_Light_demo.otf")
 }
 
-@font-face {
-    font-family: 'Homemade Apple', cursive;
-}
-
 :root {
     --backgroundColor1: white;
     --backgroundColor2: #17BBEE;
@@ -30,12 +26,14 @@
     --h3Size: calc(0.3* var(--h1Size));
     --fontSize: calc(0.15* var(--h1Size));
     --mainTitleSize: 36pt;
+    --fontFamily: "Homemade Apple";
     --fontFamily: "Simpson";
     --padding: 25px;
-    --fontFamily: "Homemade Apple";
     --shadowColor: #E79E11;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
 	margin: 0;
 	padding: 0;
