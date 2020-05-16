@@ -1,0 +1,100 @@
+figcaption h3 {
+    margin-top: 5px;
+}
+
+#network .content {
+    display: flex;
+    justify-content:space-around;
+
+    margin: 5%;
+    width: 90%;
+}
+
+#network figure {
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+
+.person {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+    width: calc(100%/3);
+}
+
+.person p {
+
+    width: 100%;
+}
+
+.person figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.person .icon {
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+    background-color: inherit;
+}
+
+.person .job {
+    white-space: nowrap;
+}
+
+.person .linkedin {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background: var(--emphasisFontColor);
+    padding: 5px 8px;
+    border-radius: 3px;
+    margin: 25px;
+    color: black;
+    min-width: 200px;
+}
+
+#network .dirty {
+    width: 10vw;
+    position: absolute;
+    top: 270vh;
+    left: 80vw;
+
+}
+
+@media screen and (max-width:1500px) {
+    .content {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .content {
+        flex-direction: column;
+    }
+
+
+
+    .person .job,
+    .person h3 {
+        white-space: inherit;
+    }
+
+    .person {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 5%;
+        width: 90%;
+    }
+
+}

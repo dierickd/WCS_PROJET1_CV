@@ -1,45 +1,199 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
-    <title>Init from html</title>
-
-    <link rel="stylesheet" type="text/css" href="../../../codebase/fonts/font_roboto/roboto.css" />
+    <title>Barney's page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
     <header>
+        <nav class="navbar">
+            <div class="menu_burger" id="menu_burger">
+                <a href="#whoami">Profil</a>
+                <a href="#abilities">Compétences</a>
+                <a href="#portfolio">Récompenses</a>
+                <a href="#network">Réseau</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <a class="button_menu" href="#menu_burger"><img alt="menu" src="images/menu.png" /></a>
+        </nav>
+
     </header>
     <main>
-        
-        <head>
-        </head>
-        
-        <!-- who am I -->
-        <section>
-        </section>
 
         <!-- who am I -->
-        <section>
+        <section id="whoami">
+            <h1>Bernard Gumble</h1>
+            <h2>CV d'un Barman Expérimenté</h2>
+            <div class="content">
+                <img src="https://vignette.wikia.nocookie.net/p__/images/b/b4/Barnild_Gumble.png/revision/latest/scale-to-width-down/286?cb=20160402113506&path-prefix=protagonist" class="external-link" alt="Barney's Face">
+                <img src="images/tache.jpeg" class="dirty" alt="tache">
+                <p>
+                    Hey guys. Je suis Barney, le barman qu'il vous faut.
+                    Vous verrez ici un aperçu de quelques une de mes compétences. C'est un peu long donc n'hésitez pas à
+                    ouvrir une bière pendant votre lecture.
+                </p>
+            </div>
+
+
+
         </section>
-        
+
         <!-- abilities -->
-        <section>
+        <section id="abilities">
+            <h2>Expériences et Compétences</h2>
+            <div id="container">
+                <div class="title">
+                <div class="wrapper">
+
+                    <div class="box box-content">
+                        <p class="exp">Harvard (enfin presque)</p>
+                        <p class="comp">Fort potentiel intellectuel</p>
+                    </div>
+                    <div class="box-1 box-content">
+                        <p class="exp">Les Bemols (groupe de musique)</p>
+                        <p class="comp">Artiste</p>
+                    </div>
+                    <div class="box-2 box-content">
+                        <p class="exp">Realisateur du Documentaitre : "Vingt Mille lieux sous les bieres"</p>
+                        <p class="comp">Capacite a entreprendre</p>
+                    </div>
+                    <div class="box-3 box-content">
+                        <p class="exp">Creation de l'entreprise : Le Roi Chasseneige</p>
+                        <p class="comp">Capacite d'aptation</p>
+                    </div>
+                    <div class="box-4 box-content">
+                        <p class="exp">Engagement dans le Corps des Marines</p>
+                        <p class="comp">Force Physique</p>
+                    </div>
+                </div>
+            </div>
         </section>
-        
+
         <!-- portfolio -->
-        <section>
+        <section id="portfolio">
+            <div class="achievment">
+                <h2>Récompenses</h2>
+
+                <article class="">
+                    <p class="succes">"18e place de la liste des 21 meilleurs alcooliques fictifs de tous les temps"
+                    </p>
+                    <span><em>source : Filcritic.com</em></span>
+
+                </article>
+                <article class="">
+                    <p class="succes">"5e du top 25 des personnages secondaires des Simpson en 2006"</p>
+                    <span><em>source : IGN Entertainment Inc</em></span>
+                </article>
+                <article class="">
+                    <p class="succes">Dette de 14 milliards de dollars auprès de Moe, calculé par la NASA</p>
+                    <span><em>source : NASA</em></span>
+                </article>
+                <article class="succes">
+                    <p class="succes">"Un nommination aux PRISM Awards de 2001"</p>
+                    <span><em>source : Wikipédia</em></span>
+                </article>
+                <article class="succes">
+                    <p class="succes">"Le plus incroyablement amusant des ivrognes de la ville de la culture populaire"
+                    </p>
+                    <span><em>source : Filcritic.com</em></span>
+                </article>
+            </div>
         </section>
-        
+
+        <!-- network -->
+        <section id="network">
+            <h2>Recommandations</h2>
+            <div class="content">
+                <article class="person">
+                    <figure>
+                        <img src="images/waiter.jpg" class="icon" title="Person1" alt="Person1's face">
+                        <figcaption>
+                            <h3>Mouette Pouette</h3>
+                            <p class="job"><em>Serveuse à la taverne de Moe</em></p>
+                            <a class="linkedin" href="#" target="_blank">Linkedin</a>
+                        </figcaption>
+                    </figure>
+                    <p class="text">Barney ? Le type qui pue la picole à trois bornes ? Évidemment que c’est un bon gars ! C’est même not’ meilleur client. On a dû faire importer des tonneaux de bières directement depuis Munich tellement il tapait dans nos réserves. Un fin gourmet, j’vous l’dis!</p>
+
+                </article>
+
+                <article class="person">
+                    <figure>
+                        <img src="images/president.jpg" class="icon" title="Person1" alt="Person1's face">
+                        <figcaption>
+                            <h3>Tortuga Manana</h3>
+                            <p class="job"><em>Président de l'academie de la bière</em></p>
+                            <a class="linkedin" href="#" target="_blank">Linkedin</a>
+                        </figcaption>
+                    </figure>
+                    <p class="text">Que votre commerce soit spécialisé en bière ou non, Barney saura vous proposer son expertise en matière d’alcool ! Personne ne pourrait rivaliser contre le Prince du Houblon, le Seigneur de la Picole, ou encore la Barrique à deux pattes !</p>
+
+                </article>
+
+                <article class="person">
+                    <figure>
+                        <img src="images/singer.png" class="icon" title="Person1" alt="Person1's face">
+                        <figcaption>
+                            <h3>King Potatoe</h3>
+                            <p class="job"><em>Jury aux Grammy Awards 1986</em></p>
+                            <a class="linkedin" href="#" target="_blank">Linkedin</a>
+                        </figcaption>
+                    </figure>
+                    <p class="text">J’ai pris une choppe un jour avec un certain Barney oui. Il avait l’air plutôt mal en point. Même complètement perdu. Et puis, je lui ai payé une bière. Et là, son visage s’est illuminé. Comme si il avait vu le Saint Esprit ! Il s’est relevé, touché par la Grâce des Cieux, comme emporté par une force occulte que seuls les Incas pouvaient en déceler le véritable secret. Il a bu sa bière, m’a souri … et m’a roté au visage. Je ne l’ai plus jamais revu depuis …
+                        Mais une chose est certaine : Barney est raide dingue de la binouze.</p>
+
+                </article>
+            </div>
+        </section>
+
         <!-- Contact -->
-        <section>
+        <section class="contact-wrapper" id="contact">
+            <div class="contact-title">
+                <h2>M'envoyer un donut's électronique</h2>
+            </div>
+            <div class="contact">
+                <div class="contact-info">
+                    <p class="item-info">Bernard Gumble</p>
+                    <p class="item-info">69 rue de la soif - Springfield</p>
+                    <p class="item-info">06.06.06.06.06</p>
+                    <p class="item-info">Gumble@springfield.com</p>
+                    <a href="#"><img src="https://icongr.am/devicon/linkedin-plain.svg?color=fdd420" alt="Linkedin"></a>
+                    <a href="#"><img src="https://icongr.am/entypo/pinterest-with-circle.svg?color=fdd420" alt="Pinteres"></a>
+                    <a href="#"><img src="https://icongr.am/entypo/instagram-with-circle.svg?color=fdd420" alt="Instagram"></a>
+                </div>
+                <form action="#" method="POST" class="form-contact">
+                    <div class="form-group">
+                        <label for="name">Nom ou entreprise*</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Sujet*</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message*</label>
+                        <textarea name="message" id="message" rows="7" required></textarea>
+                    </div>
+                    <div class="form-btn">
+                        <button class="btn" type="submit">Envoyer le donut's</button>
+                    </div>
+                </form>
+            </div>
         </section>
-        
+
     </main>
-    
     <footer>
     </footer>
 
 </body>
+
 
 </html>
